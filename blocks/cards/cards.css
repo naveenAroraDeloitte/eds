@@ -4,7 +4,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(278px, 1fr));
-  grid-gap: 16px;
+  grid-gap: 20px;
 }
 
 .cards > ul > li {
@@ -14,6 +14,7 @@
 
 .cards .cards-card-body {
   margin: 16px;
+  color:brown;
 }
 
 .cards .cards-card-image {
