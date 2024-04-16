@@ -25,7 +25,7 @@ async function createList(jsonURL, val) {
     pathName = new URL(jsonURL);
   }
 
-  const fetchProductsData = await fetch(pathName + '?sheet=products');
+  const fetchProductsData = await fetch(`${pathName}?sheet=products`);
   const productJSON = await fetchProductsData.json();
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
@@ -40,20 +40,16 @@ async function createList(jsonURL, val) {
 
   if (isCheckout) {
     filteredData = productJSON.data.filter(
-      (item) =>
-        item.CategoryID === categoryParam && item.ProductID === productParam
+      (item) => item.CategoryID === categoryParam && item.ProductID === productParam,
+    );
+  } else if (productParam) {
+    filteredData = productJSON.data.filter(
+      (item) => item.CategoryID === categoryParam && item.ProductID !== productParam,
     );
   } else {
-    if (productParam) {
-      filteredData = productJSON.data.filter(
-        (item) =>
-          item.CategoryID === categoryParam && item.ProductID !== productParam
-      );
-    } else {
-      filteredData = productJSON.data.filter(
-        (item) => item.CategoryID === categoryParam
-      );
-    }
+    filteredData = productJSON.data.filter(
+      (item) => item.CategoryID === categoryParam,
+    );
   }
   const list = document.createElement('ul');
   createListItem(list, filteredData);

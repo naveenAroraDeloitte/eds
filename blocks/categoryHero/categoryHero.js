@@ -1,6 +1,5 @@
 function createListItem(HeroContainer, categoriesJSON) {
-
-    HeroContainer.innerHTML += `
+  HeroContainer.innerHTML += `
       <div>
         <div>
           <picture>
@@ -23,14 +22,14 @@ async function createList(jsonURL, val) {
     pathName = new URL(jsonURL);
   }
 
-  const fetchcategoriesData = await fetch(pathName + '?sheet=categories');
+  const fetchcategoriesData = await fetch(`${pathName}?sheet=categories`);
   const categoriesJSON = await fetchcategoriesData.json();
 
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   const categoryParam = urlParams.has('category') && urlParams.get('category');
   const filteredData = categoriesJSON.data.filter(
-    (item) => item.CategoryID === categoryParam
+    (item) => item.CategoryID === categoryParam,
   );
 
   const HeroContainer = document.createElement('div');

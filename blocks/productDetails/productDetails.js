@@ -25,15 +25,14 @@ async function createList(jsonURL, val) {
     pathName = new URL(jsonURL);
   }
 
-  const fetchProductsData = await fetch(pathName + '?sheet=products');
+  const fetchProductsData = await fetch(`${pathName}?sheet=products`);
   const productJSON = await fetchProductsData.json();
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   const productParam = urlParams.has('product') && urlParams.get('product');
   const categoryParam = urlParams.has('category') && urlParams.get('category');
   const filteredData = productJSON.data.filter(
-    (item) =>
-      item.CategoryID === categoryParam && item.ProductID === productParam
+    (item) => item.CategoryID === categoryParam && item.ProductID === productParam,
   );
   const productDeailsContainer = document.createElement('div');
   productDeailsContainer.classList.add('productDetails_container');
