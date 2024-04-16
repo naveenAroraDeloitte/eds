@@ -20,7 +20,7 @@
   margin-right: 0
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .productCards > ul > li{
     margin-right: 0;
     margin-bottom: 20px;
@@ -43,7 +43,7 @@
 }
 
 .productCards .cards-card-image h5 {
-  background-color:rgba(0, 0, 0, 0.5);;
+  background-color:rgb(0 0 0 / 50%);;
   border-radius: 15px;
   display: inline-block;
   position: absolute;

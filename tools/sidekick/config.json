@@ -1,12 +1,33 @@
 {
-	"id": "asset-library",
-	"title": "My Assets",
-	"environments": [
-	"edit"
-	],
-	"url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
-	"isPalette": true,
-	"includePaths": [ "**.docx**" ],
-	"passConfig": true,
-	"paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
-}
+    "info": {
+      "name": "AEM Sidekick",
+      "version": "6.42.0",
+      "date": "Tue, 16 Apr 2024 12:15:09 GMT"
+    },
+    "projects": [
+      {
+        "giturl": "https://github.com/naveenaroradeloitte/eds/tree/main",
+        "id": "naveenaroradeloitte/eds/main",
+        "mountpoints": [
+          "https://drive.google.com/drive/u/0/folders/1CfahYd6JAQ2FKO6SEA854zDHM5dDEbm7"
+        ],
+        "owner": "naveenaroradeloitte",
+        "ref": "main",
+        "repo": "eds"
+      }
+    ],
+    "plugins": [
+      {
+        "id": "asset-library",
+        "title": "My Assets",
+        "environments": [
+        "edit"
+        ],
+        "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
+        "isPalette": true,
+        "includePaths": [ "**.docx**" ],
+        "passConfig": true,
+        "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
+      }
+    ]
+  }

@@ -38,7 +38,7 @@
   font-size: 24px;
 }
 
-@media (max-width: 768px) {
+@media (width <= 768px) {
   .productDetails_container .product-image-container,
   .productDetails_container .product-description-container {
       width: 100%;

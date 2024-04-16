@@ -228,7 +228,7 @@ main .form button {
     text-align: center;
     font-style: normal;
     cursor: pointer;
-    color: rgb(66, 66, 66);
+    color: rgb(66 66 66);
     background-color: var(--background-yellow-color);
     margin: 16px 0;
     white-space: nowrap;
@@ -236,7 +236,7 @@ main .form button {
     text-overflow: ellipsis;
     border-radius: 10px;
     font-size: 18px;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%), 0 1px 5px 0 rgb(0 0 0 / 12%);
     border: 0;
     padding: 10px 20px;
 }
@@ -246,7 +246,7 @@ main form .file-wrapper > button{
 }
 
 main .form button:hover {
-    color: rgb(66, 66, 66);
+    color: rgb(66 66 66);
     background-color: var(--background-yellow-color);
 }
 
@@ -307,7 +307,7 @@ main .form .button-wrapper button {
 
 main .form .button-wrapper button:hover {
     border: 3px solid var(#fff);
-    color: rgb(66, 66, 66);
+    color: rgb(66 66 66);
     background-color: var(--background-yellow-color);
 }
 
