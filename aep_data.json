@@ -1,0 +1,1389 @@
+{
+    "profile": {
+        "userActivityRegions": {
+            "IRL1": {
+                "captureTimestamp": "2023-09-23T12:29:43.125Z"
+            }
+        },
+        "identityMap": {
+            "ecid": [
+                {
+                    "id": "69072822331784754613159257073155096537"
+                }
+            ]
+        },
+        "segmentMembership": [
+            "CDP Asset: Home View",
+            "CDP Asset: Product Views",
+            "HT: Page View",
+            "HT: Page View (streaming)",
+            "CDP Asset: Product Views | Product0",
+            "CDP Asset: Product Views | Product1",
+            "CDP Asset: Product Page View",
+            "CDP Asset: Clicked Campaign A"
+        ]
+    },
+    "events": [
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "e97d64c9-ada6-48ce-bc8c-3e08a6b915d8-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449287562,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Category",
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/landing"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "e97d64c9-ada6-48ce-bc8c-3e08a6b915d8-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:08:07.562+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:08:07.562Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:08:09Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "f61916d6-6f37-4ab6-a9ca-e831789eef76-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449290060,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Product",
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=1"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "f61916d6-6f37-4ab6-a9ca-e831789eef76-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:08:10.060+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:08:10.060Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:08:10Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "eb1d2341-6470-4667-ae60-a30219c23e1b-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449290198,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Product",
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=1"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "commerce.productViews",
+                "_id": "eb1d2341-6470-4667-ae60-a30219c23e1b-0",
+                "productListItems": [
+                    {
+                        "name": "Red Energy Gel",
+                        "selectedOptions": [
+                            {
+                                "value": "Energy Gels",
+                                "attribute": "category"
+                            }
+                        ],
+                        "productImageUrl": "http://cdp-proposition.eu-west-2.elasticbeanstalk.com/static/consumer/category0product1.jpg",
+                        "SKU": "product1",
+                        "currencyCode": "GBP",
+                        "priceTotal": 25
+                    }
+                ],
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:08:10.198+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:08:10.198Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:08:13Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "b7281bb4-a2c0-4329-8669-39127f068ca8-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449357703,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 823
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Product",
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=1"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "b7281bb4-a2c0-4329-8669-39127f068ca8-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:17.703+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:17.703Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:22Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "dc1a4327-a36b-48df-b8b1-930f429a75a2-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449358116,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Product",
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=1"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "commerce.productViews",
+                "_id": "dc1a4327-a36b-48df-b8b1-930f429a75a2-0",
+                "productListItems": [
+                    {
+                        "name": "Red Energy Gel",
+                        "selectedOptions": [
+                            {
+                                "value": "Energy Gels",
+                                "attribute": "category"
+                            }
+                        ],
+                        "productImageUrl": "http://cdp-proposition.eu-west-2.elasticbeanstalk.com/static/consumer/category0product1.jpg",
+                        "SKU": "product1",
+                        "currencyCode": "GBP",
+                        "priceTotal": 25
+                    }
+                ],
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:18.116+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:18.116Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:21Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "f8b9fd6b-37ee-4774-a322-d304b5832b6d-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449359291,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Home",
+                        "URL": "http://127.0.0.1:5000/consumer/home"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=1"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "f8b9fd6b-37ee-4774-a322-d304b5832b6d-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:19.291+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:19.291Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:21Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "22a3c1b0-cedb-4ce1-a087-e87572742830-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449359644,
+            "entity": {
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "URL": "http://127.0.0.1:5000/consumer/home"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=1"
+                    }
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "decisioning.propositionDisplay",
+                "_id": "22a3c1b0-cedb-4ce1-a087-e87572742830-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:19.644+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "_experience": {},
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:19.644Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:21Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "83d6978e-bc04-4d98-b34f-1c9695141f80-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449377524,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 823
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Category",
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/home"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "83d6978e-bc04-4d98-b34f-1c9695141f80-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:37.524+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:37.524Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:39Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "a294f2a6-c984-4fbd-9ed7-06e145adc682-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449380615,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Product",
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=0"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "a294f2a6-c984-4fbd-9ed7-06e145adc682-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:40.615+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:40.615Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:42Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "e3b2f8f7-7edd-4172-8e73-d09065f10b02-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449380667,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Product",
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=0"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "commerce.productViews",
+                "_id": "e3b2f8f7-7edd-4172-8e73-d09065f10b02-0",
+                "productListItems": [
+                    {
+                        "name": "Blue Energy Gel",
+                        "selectedOptions": [
+                            {
+                                "value": "Energy Gels",
+                                "attribute": "category"
+                            }
+                        ],
+                        "productImageUrl": "http://cdp-proposition.eu-west-2.elasticbeanstalk.com/static/consumer/category0product0.jpg",
+                        "SKU": "product0",
+                        "currencyCode": "GBP",
+                        "priceTotal": 21
+                    }
+                ],
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:40.667+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:40.667Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:43Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "d402a7d7-fd84-4f6a-b229-eda442b99507-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449382306,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Home",
+                        "URL": "http://127.0.0.1:5000/consumer/home"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=0"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "d402a7d7-fd84-4f6a-b229-eda442b99507-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:42.305+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:42.306Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:45Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "2f1f8aa5-6428-4f8c-9f0d-52959ee60258-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695449382670,
+            "entity": {
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 838
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "URL": "http://127.0.0.1:5000/consumer/home"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/consumer/product?category=0&product=0"
+                    }
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "decisioning.propositionDisplay",
+                "_id": "2f1f8aa5-6428-4f8c-9f0d-52959ee60258-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:09:42.670+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "_experience": {},
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:09:42.670Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:09:45Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "2780c648-4dc3-4340-acdc-b1b985f9a6d7-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695451214589,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 1025
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Category",
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/landing"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "2780c648-4dc3-4340-acdc-b1b985f9a6d7-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:40:14.589+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:40:14.589Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:40:18Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "e48ba366-9b0b-4f0b-a49e-d6ea3dfdfbc5-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695451244417,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 1010
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Retail | External",
+                        "URL": "http://127.0.0.1:5000/retail/external"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/landing"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "e48ba366-9b0b-4f0b-a49e-d6ea3dfdfbc5-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:40:44.417+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:40:44.417Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:40:46Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "24c21561-26e2-46c4-8442-54ef837a8ff0-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695451247037,
+            "entity": {
+                "marketing": {
+                    "trackingCode": "campaignA"
+                },
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 1025
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Retail | Home",
+                        "URL": "http://127.0.0.1:5000/retail/home?campaign=campaignA"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/retail/external"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "24c21561-26e2-46c4-8442-54ef837a8ff0-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:40:47.037+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:40:47.037Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:40:48Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "fd686fc4-7954-487b-80f4-d310ae935de5-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695451247097,
+            "entity": {
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 1025
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "URL": "http://127.0.0.1:5000/retail/home?campaign=campaignA"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/retail/external"
+                    }
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "decisioning.propositionDisplay",
+                "_id": "fd686fc4-7954-487b-80f4-d310ae935de5-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T07:40:47.097+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "_experience": {},
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T06:40:47.097Z"
+            },
+            "lastModifiedAt": "2023-09-23T06:40:50Z"
+        },
+        {
+            "relatedEntityId": "A2_FS_g_mJjbX9m_jM-R79cr",
+            "entityId": "6961e2e8-dc90-4322-a549-7dc5516c7afa-0",
+            "sourceId": "5e3d93e4d9ebed18a8100a90",
+            "timestamp": 1695472182903,
+            "entity": {
+                "marketing": {},
+                "environment": {
+                    "ipV4": "91.109.238.188",
+                    "type": "browser",
+                    "browserDetails": {
+                        "userAgentClientHints": {
+                            "mobile": false,
+                            "platform": "macOS",
+                            "brands": [
+                                {
+                                    "brand": "Chromium",
+                                    "version": "116"
+                                },
+                                {
+                                    "brand": "Not)A;Brand",
+                                    "version": "24"
+                                },
+                                {
+                                    "brand": "Google Chrome",
+                                    "version": "116"
+                                }
+                            ]
+                        },
+                        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",
+                        "viewportHeight": 1108,
+                        "viewportWidth": 1025
+                    }
+                },
+                "web": {
+                    "webPageDetails": {
+                        "name": "Consumer | Category",
+                        "URL": "http://127.0.0.1:5000/consumer/category?category=0"
+                    },
+                    "webReferrer": {
+                        "URL": "http://127.0.0.1:5000/landing"
+                    }
+                },
+                "_deloitteemeanorthpartnersand": {
+                    "ECID_CDP": "69072822331784754613159257073155096537"
+                },
+                "identityMap": {
+                    "ECID": [
+                        {
+                            "id": "69072822331784754613159257073155096537",
+                            "authenticatedState": "ambiguous",
+                            "primary": true
+                        }
+                    ]
+                },
+                "eventType": "web.webpagedetails.pageViews",
+                "_id": "6961e2e8-dc90-4322-a549-7dc5516c7afa-0",
+                "placeContext": {
+                    "geo": {
+                        "_schema": {
+                            "latitude": 0.0,
+                            "longitude": 0.0
+                        },
+                        "stateProvince": "GB-GRE",
+                        "countryCode": "GB"
+                    },
+                    "localTime": "2023-09-23T13:29:42.903+01:00",
+                    "localTimezoneOffset": -60
+                },
+                "device": {
+                    "screenOrientation": "landscape",
+                    "screenWidth": 3440,
+                    "screenHeight": 1440
+                },
+                "timestamp": "2023-09-23T12:29:42.903Z"
+            },
+            "lastModifiedAt": "2023-09-23T12:29:47Z"
+        }
+    ]
+}
