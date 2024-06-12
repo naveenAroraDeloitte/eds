@@ -1,0 +1,68 @@
+.cdpdata-container .cdp-data .top-container {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cdpdata-container .cdp-data .top-container > div {
+  border: 1px solid var(--dark-color);
+  background-color: var(--background-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: calc(33.33% - 15px);
+  margin-right: 20px;
+  padding: 20px;
+}
+
+.cdpdata-container .cdp-data .top-container > div ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cdpdata-container .cdp-data .top-container > div:last-child {
+  margin-right: 0;
+}
+
+.cdpdata-container .cdp-data h2 {
+  font-size: 22px;
+}
+
+.cdpdata-container .cdp-data .top-container > div h6 {
+  font-size: 16px;
+}
+
+.cdpdata-container .cdp-data .bottom-container {
+  border: 1px solid var(--dark-color);
+  background-color: var(--background-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.cdpdata-container .cdp-data .bottom-container table th{
+  text-align: left;
+}
+
+.cdpdata-container .cdp-data .bottom-container table{
+  border: 1px solid #ccc;
+ border-collapse: collapse;
+}
+
+.cdpdata-container .cdp-data .bottom-container table td,
+.cdpdata-container .cdp-data .bottom-container table th{
+  border: 1px solid #ccc;
+  padding:10px;
+}
+
+@media (width <= 768px) {
+  .cdpdata-container .cdp-data .top-container > div {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}
