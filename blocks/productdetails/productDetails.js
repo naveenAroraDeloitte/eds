@@ -32,8 +32,8 @@ function createListItem(productContainer, productData) {
 
     
     <div data-aue-resource="urn:aemconnection:/content/dam/ddxadobehackathon2024/item1" data-aue-type="component">
-  <p data-aue-prop="fullName" data-aue-type="text">Jane Doe</p>
-        <p data-aue-prop="profession" data-aue-type="text">Journalist</p>
+  <p data-aue-prop="fullName" data-aue-type="textField">Jane Doe</p>
+        <p data-aue-prop="profession" data-aue-type="textField">Journalist</p>
     </div>
 
 
