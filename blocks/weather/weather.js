@@ -1,7 +1,7 @@
 function createWeatherUI(weatherBlock, weatherData) {
-  weatherBlock.innerHTML += `<div class="data">
-  ${weatherData.location.name} ${weatherData.current.temp_c}<sup>o</sup> C
-      </div>`;
+  // weatherBlock.innerHTML += `<div class="data">
+  // ${weatherData.location.name} ${weatherData.current.temp_c}<sup>o</sup> C
+  //     </div>`;
 }
 
 async function createWeatherBlock(apiURL) {
